@@ -18,7 +18,7 @@
                 class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
             </div>
             <div
-                class="relative bg-white z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
+                class="relative bg-white shadow-[0_10px_10px_rgba(0,0,0,0.15)] z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
                 <div
                     class="bg-linear-to-r from-primary via-secondary to-brand-blue rounded-xl text-white text-2xl md:text-3xl p-2 mb-1">
                     <i class="fas fa-bullseye"></i>
@@ -36,7 +36,7 @@
                 class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
             </div>
             <div
-                class="relative bg-white z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
+                class="relative bg-white shadow-[0_10px_10px_rgba(0,0,0,0.15)] z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
                 <div
                     class="bg-linear-to-r from-primary via-secondary to-brand-blue rounded-xl text-white text-2xl md:text-3xl p-2 mb-1">
                     <i class="fas fa-star"></i>
@@ -54,7 +54,7 @@
                 class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
             </div>
             <div
-                class="relative bg-white z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
+                class="relative bg-white shadow-[0_10px_10px_rgba(0,0,0,0.15)] z-10 h-full border-y-2 border-r-2 border-primary-border rounded-[30px] px-5 py-5 flex flex-col justify-center items-start">
                 <div
                     class="bg-linear-to-r from-primary via-secondary to-brand-blue rounded-xl text-white text-2xl md:text-3xl p-2 mb-1">
                     <i class="fas fa-microchip"></i>
