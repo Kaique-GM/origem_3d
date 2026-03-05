@@ -11,7 +11,7 @@
     @livewireStyles
 </head>
 
-<body class="bg-zinc-950 text-white min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col">
 
     <livewire:components.navbar />
 
