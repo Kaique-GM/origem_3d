@@ -1,5 +1,5 @@
 <nav class="w-full">
-    <div class="max-w-screen-2xl mx-auto px-2 lg:px-20 py-5 font-sans group flex flex-col justify-center items-center">
+    <div class="max-w-screen-2xl mx-auto px-2 lg:px-16 py-5 font-sans group flex flex-col justify-center items-center">
         <div
             class="w-full z-10 bg-white border border-primary-border shadow-[0_10px_10px_rgba(0,0,0,0.15)] px-6 py-2 flex flex-col md:flex-row items-center justify-between rounded-[40px]">
             <div class="flex justify-between items-center gap-3 mt-2 md:mt-0">

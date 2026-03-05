@@ -13,9 +13,7 @@
 
 <body class="min-h-screen flex flex-col">
 
-    <livewire:components.navbar />
-
-    <main class="flex-1 w-full max-w-6xl mx-auto px-6 py-10">
+    <main>
         {{ $slot }}
     </main>
 
