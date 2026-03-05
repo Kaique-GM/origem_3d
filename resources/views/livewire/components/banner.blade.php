@@ -1,6 +1,6 @@
 <section class="max-w-screen-2xl mx-auto font-sans">
-    <div class="flex flex-col md:grid lg:grid-cols-2 px-2 md:px-16 justify-start items-start h-full">
-        <div class="flex flex-col h-full justify-start items-start gap-3 py-10 md:py-20">
+    <div class="flex flex-col md:grid lg:grid-cols-2 px-2 md:px-16 justify-start items-start h-full md:pb-40">
+        <div class="flex flex-col h-full justify-start items-start gap-3 py-10 md:pt-20">
             <span
                 class="text-brand-blue_2 xl:text-[26px] font-bold py-2 px-5 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50">
                 Impressão 3D Profissional
