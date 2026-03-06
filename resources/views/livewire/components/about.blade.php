@@ -25,7 +25,7 @@
                         <i class="fas fa-bullseye"></i>
                     </div>
                     <h3 class="text-black font-bold text-2xl md:text-4xl mb-1 md:mb-3">Nossa Missão</h3>
-                    <p class="text-brand-gray_2 text-lg md:text-xl leading-6">
+                    <p class="text-brand-gray_2 font-medium text-lg md:text-xl leading-6">
                         Tornar a impressão 3D acessível a todos, transformando criatividade em objetos reais com
                         qualidade, inovação e precisão.
                     </p>
@@ -43,7 +43,7 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <h3 class="text-black font-bold text-2xl md:text-4xl mb-1 md:mb-3">Nosso Diferencial</h3>
-                    <p class="text-brand-gray_2 text-lg md:text-xl leading-6">
+                    <p class="text-brand-gray_2 font-medium text-lg md:text-xl leading-6">
                         Combinamos criatividade, tecnologia e atenção aos detalhes para entregar peças únicas que superam
                         expectativas.
                     </p>
@@ -61,7 +61,7 @@
                         <i class="fas fa-microchip"></i>
                     </div>
                     <h3 class="text-black font-bold text-2xl md:text-4xl mb-1 md:mb-3">Tecnologia</h3>
-                    <p class="text-brand-gray_2 text-lg md:text-xl leading-6">
+                    <p class="text-brand-gray_2 font-medium text-lg md:text-xl leading-6">
                         Utilizamos impressoras de última geração e filamentos de alta performance, com materiais premium
                         para garantir precisão, resistência e durabilidade.
                     </p>

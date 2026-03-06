@@ -1,7 +1,7 @@
 <section>
     @php
-    $url = asset('images/banner/Banner.webp');
-    $urlProducts = asset('images/products/Banner.webp');
+        $url = asset('images/banner/Banner.webp');
+        $urlProducts = asset('images/products/Banner.webp');
     @endphp
     <div class="bg-cover bg-center" style="background-image: url('{{ $url }}');">
         <div class="flex flex-col bg-linear-to-b from-white/90 via-white/90 to-white h-full pb-12">
@@ -18,4 +18,7 @@
             <livewire:components.products />
         </div>
     </div>
+
+    <livewire:components.advantages />
+
 </section>
