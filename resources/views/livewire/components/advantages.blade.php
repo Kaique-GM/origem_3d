@@ -1,4 +1,4 @@
-<section class="font-sans bg-linear-to-b from-transparent via-white via-90% to-brand-dark_2">
+<section class="font-sans bg-linear-to-b from-transparent via-white via-90% to-brand-dark_2" id="diferenciais">
     <div class="flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-36 pb-36 px-2 md:px-16 gap-10">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span

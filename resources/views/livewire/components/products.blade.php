@@ -1,4 +1,4 @@
-<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-2 md:px-16 py-14 relative">
+<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-2 md:px-16 py-14 relative" id="produtos">
     <img src="{{ asset('images/products/ChaveiroMario.webp') }}" alt="Chaveiro Mario"
                             class="max-w-32 md:max-w-44 xl:max-w-76 absolute -top-28 left-0" draggable="false">
                             
