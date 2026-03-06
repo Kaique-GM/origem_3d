@@ -20,7 +20,25 @@
     --color-brand-blue_2: #0B3C78;
     --color-brand-blue_3: #0A1F44;
     --color-brand-blue_4: #174EA6;
+    --color-brand-blue_5: #0F2A5F;
     --color-brand-dark_1: #1A1A1A;
     --color-brand-gray_1: #BAB5B5;
     --color-brand-gray_2: #6B7280;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    background: rgba(209, 213, 219, 0.8) !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 16px !important;
+    height: 16px !important;
+    background: linear-gradient(90deg, #3FA9F5, #1565C0) !important;
 }

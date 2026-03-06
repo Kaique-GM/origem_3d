@@ -4,8 +4,7 @@
             class="w-full z-10 bg-white border border-primary-border shadow-[0_10px_10px_rgba(0,0,0,0.15)] px-6 py-2 flex flex-col md:flex-row items-center justify-between rounded-[40px]">
             <div class="flex justify-between items-center gap-3 mt-2 md:mt-0">
                 <a href="/" class="">
-                    {{-- Trocar logo --}}
-                    <img src="{{ asset('images/Logo.png') }}" alt="Logo" draggable="false" class="max-h-16">
+                    <img src="{{ asset('images/Logo.webp') }}" alt="Logo" draggable="false" class="max-h-16">
                 </a>
 
                 <div class="md:hidden border-2 border-primary-border rounded-[10px] p-1">
@@ -17,11 +16,11 @@
             
             <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-300 ease-in-out w-full mt-4">
                 <div class="flex flex-col gap-4 text-lg">
-                    <a href="/" class="hover:text-secondary">Sobre</a>
-                    <a href="#" class="hover:text-secondary">Produtos</a>
-                    <a href="#" class="hover:text-secondary">Diferenciais</a>
-                    <a href="#" class="hover:text-secondary">Contato</a>
-                    <a href="#"
+                    <a href="#sobre" class="hover:text-secondary">Sobre</a>
+                    <a href="#produtos" class="hover:text-secondary">Produtos</a>
+                    <a href="#diferenciais" class="hover:text-secondary">Diferenciais</a>
+                    <a href="#contato" class="hover:text-secondary">Contato</a>
+                    <a href="#contato"
                         class="bg-linear-to-r from-primary to-secondary text-white text-center rounded-full py-2 font-bold">
                         Faça seu Orçamento
                     </a>
@@ -30,12 +29,12 @@
 
             <div class="hidden md:block">
                 <div class="flex gap-6 text-lg text-black justify-center items-center">
-                    <a href="/" class="hover:text-secondary transition">Sobre</a>
-                    <a href="#" class="hover:text-secondary transition">Produtos</a>
-                    <a href="#" class="hover:text-secondary transition">Diferenciais</a>
-                    <a href="#" class="hover:text-secondary transition">Contato</a>
+                    <a href="#sobre" class="hover:text-secondary transition">Sobre</a>
+                    <a href="#produtos" class="hover:text-secondary transition">Produtos</a>
+                    <a href="#diferenciais" class="hover:text-secondary transition">Diferenciais</a>
+                    <a href="#contato" class="hover:text-secondary transition">Contato</a>
                     {{-- Button --}}
-                    <a href="#"
+                    <a href="#contato"
                         class="flex justify-center items-center text-center bg-linear-to-r from-primary to-secondary rounded-[30px] font-bold xl:text-2xl text-white hover:scale-105 duration-300 transition px-8 py-2">
                         <span>Faça seu Orçamento</span>
                     </a>
