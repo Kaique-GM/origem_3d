@@ -19,6 +19,8 @@
         </div>
     </div>
 
-    <livewire:components.advantages />
+    <div class="bg-linear-to-t from-white via-white via-90% to-brand-blue_5">
+        <livewire:components.advantages />
+    </div>
 
 </section>
