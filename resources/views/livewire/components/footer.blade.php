@@ -8,8 +8,8 @@
                 </p>
             </div>
             <div
-                class="font-bold text-white hover:text-brand-gray_1 duration-300 text-2xl flex justify-start md:justify-center items-start md:items-center">
-                <a href="#" class="flex justify-center items-center gap-2">
+                class="font-bold text-white  text-2xl flex justify-start md:justify-center items-start md:items-center">
+                <a href="#" class="flex justify-center items-center gap-2 hover:text-brand-gray_1 duration-300">
                     <div class="hidden md:block">
                         <i class="fas fa-chevron-up"></i>
                     </div>
