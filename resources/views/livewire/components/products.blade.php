@@ -1,4 +1,7 @@
-<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-2 md:px-16 py-14">
+<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-2 md:px-16 py-14 relative">
+    <img src="{{ asset('images/products/ChaveiroMario.webp') }}" alt="Chaveiro Mario"
+                            class="max-w-32 md:max-w-44 xl:max-w-76 absolute -top-28 left-0" draggable="false">
+                            
     <div class="flex flex-col justify-center items-center max-w-3xl text-center">
         <h4 class="text-white text-3xl md:text-5xl font-bold">
             Nossos Produtos
@@ -29,18 +32,23 @@
         <div class="flex flex-col gap-5 justify-center items-center py-10">
             <div class="swiper overflow-hidden rounded-[30px] w-full max-w-150">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/products/Decorativos_1.jpeg') }}"
+                    <div class="swiper-slide aspect-square">
+                        <img src="{{ asset('images/products/Decorativos_1.webp') }}" alt="Decorativos"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
 
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/products/Decorativos_2.jpeg') }}"
+                    <div class="swiper-slide aspect-square">
+                        <img src="{{ asset('images/products/Chaveiros.webp') }}" alt="Chaveiros"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
 
-                    <div class="swiper-slide">
-                        <img src="{{ asset('images/products/Decorativos_3.jpeg') }}"
+                    <div class="swiper-slide aspect-square">
+                        <img src="{{ asset('images/products/Bonecos.webp') }}" alt="Bonecos"
+                            class="object-cover w-full h-full rounded-[30px]" draggable="false">
+                    </div>
+
+                    <div class="swiper-slide aspect-square">
+                        <img src="{{ asset('images/products/Suporte.webp') }}" alt="Suportes"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
                 </div>

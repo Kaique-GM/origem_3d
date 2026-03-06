@@ -25,17 +25,22 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             category: "DECORATIVOS",
             title: "Vasos e Jarros",
-            description: "Peças modernas e minimalistas desenvolvidas com impressão 3D de alta precisão, ideais para transformar qualquer ambiente. Produzimos vasos e jarros com diferentes formatos, texturas e acabamentos, combinando design contemporâneo, resistência e personalidade para sua decoração."
+            description: "Peças modernas e minimalistas ideais para transformar qualquer ambiente. Criamos vasos e jarros com diferentes formatos, texturas e acabamentos, combinando design contemporâneo, resistência e personalidade para valorizar sua decoração."
+        },
+        {
+            category: "ACESSÓRIOS",
+            title: "Chaveiros",
+            description: "Peças criativas e cheias de personalidade, ideais para acompanhar suas chaves no dia a dia ou decorar mochilas e bolsas. Produzimos modelos em diversos formatos, estilos e cores, combinando design moderno, leveza e resistência para criar acessórios únicos e cheios de estilo."
+        },
+        {
+            category: "COLECIONÁVEIS",
+            title: "Bonecos e Miniaturas",
+            description: "Produzimos bonecos e miniaturas detalhadas inspiradas em personagens, objetos e ideias criativas. Cada peça é desenvolvida com atenção aos detalhes, podendo ter diferentes tamanhos, estilos e acabamentos, sendo perfeitas para colecionar, decorar ambientes ou presentear."
         },
         {
             category: "ORGANIZAÇÃO",
             title: "Suportes e Organizadores",
-            description: "Itens funcionais feitos em impressão 3D que ajudam a manter seu espaço organizado com design moderno e resistente."
-        },
-        {
-            category: "PERSONALIZADOS",
-            title: "Peças Sob Medida",
-            description: "Criamos modelos exclusivos sob medida para sua necessidade, desde decoração até peças técnicas."
+            description: "Peças criadas para trazer mais praticidade e organização ao seu espaço. Produzimos suportes para celular, controles, fones de ouvido e pequenos objetos, unindo design funcional, resistência e estética para deixar seu ambiente mais organizado e moderno."
         }
     ];
 
@@ -43,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         modules: [Autoplay, Pagination],
 
         loop: true,
-        speed: 700,
+        speed: 800,
         autoplay: {
             delay: 3000,
             disableOnInteraction: false
