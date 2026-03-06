@@ -23,4 +23,6 @@
         <livewire:components.advantages />
     </div>
 
+    <livewire:components.contact />
+
 </section>
