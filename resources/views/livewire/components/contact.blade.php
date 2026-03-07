@@ -1,17 +1,17 @@
 <section class="relative font-sans bg-linear-to-b from-brand-dark_2 via-brand-dark_2 via-90% to-brand-dark_1" id="contato">
-    <div class="relative flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-4 md:px-16 gap-10">
+    <div class="relative flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-4 md:px-16 gap-16">
         <img src="{{ asset('images/goku.webp') }}" alt="Goku"
-            class="max-w-40 md:max-w-44 xl:max-w-86 absolute -top-32 md:-top-48 right-0 z-10" draggable="false">
+            class="reveal-grow max-w-40 md:max-w-44 xl:max-w-86 absolute -top-32 md:-top-48 right-0 z-10" draggable="false">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
-                class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent font-bold md:text-[24px]">ORÇAMENTO</span>
-            <h6 class="text-white text-3xl md:text-5xl font-bold">
+                class="reveal-left bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent font-bold md:text-[24px]" style="animation-delay:0.1s">ORÇAMENTO</span>
+            <h6 class="reveal-left text-white text-3xl md:text-5xl font-bold" style="animation-delay:0.3s">
                 Transforme sua Ideia em <strong
                     class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent"> Realidade</strong>
             </h6>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <div class="flex justify-center items-end">
+            <div class="reveal-left flex justify-center items-end" style="animation-delay:0.1s">
                 <div class="relative flex justify-center items-center" id="form">
                     <div
                         class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
@@ -96,15 +96,15 @@
             <div class="flex flex-col justify-center items-center gap-8">
                 <div class="flex flex-col justify-center items-center gap-3">
                     <span id="product-category"
-                        class="text-white xl:text-[26px] font-bold py-2 px-24 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50">
+                        class="reveal-left text-white xl:text-[26px] font-bold py-2 px-24 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50" style="animation-delay:0.1s">
                         CONTATOS
                     </span>
-                    <p class="text-white text-[28px] text-center leading-8">
+                    <p class="reveal-left text-white text-[28px] text-center leading-8" style="animation-delay:0.3s">
                         Prefere falar diretamente com a gente? Escolha o canal que preferir.
                     </p>
                 </div>
                 <div class="flex flex-col gap-5 w-full">
-                    <a href="https://wa.me/5511999999999" target="_blank" class="relative w-full hover:scale-95 duration-300">
+                    <a href="https://wa.me/5511999999999" target="_blank" class="reveal-grow relative w-full hover:scale-95 duration-300" style="animation-delay:0.1s">
                         <div
                             class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                         </div>
@@ -123,7 +123,7 @@
                         </div>
                     </a>
 
-                    <a href="https://www.instagram.com/_origem3d/" target="_blank" class="relative w-full hover:scale-95 duration-300">
+                    <a href="https://www.instagram.com/_origem3d/" target="_blank" class="reveal-grow relative w-full hover:scale-95 duration-300" style="animation-delay:0.3s">
                         <div
                             class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                         </div>
@@ -142,7 +142,7 @@
                         </div>
                     </a>
 
-                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=contato@origem3d.com" target="_blank" class="relative w-full hover:scale-95 duration-300">
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=contato@origem3d.com" target="_blank" class="reveal-grow relative w-full hover:scale-95 duration-300" style="animation-delay:0.5s">
                         <div
                             class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                         </div>
