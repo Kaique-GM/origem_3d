@@ -31,18 +31,23 @@ window.maskPhone = function (input) {
 // Swiper
 document.addEventListener("DOMContentLoaded", () => {
 
-    //Animação  slide-left
-    const elements = document.querySelectorAll('.reveal-left');
+    //Animações
+    const elements = document.querySelectorAll('[class*="reveal-"]');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
 
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-slide-left');
-            } else {
-                entry.target.classList.remove('animate-slide-left');
-            }
+            const revealClass = [...entry.target.classList]
+                .find(cls => cls.startsWith('reveal-'));
+            if (!revealClass) return;
 
+            const animationClass = revealClass.replace('reveal', 'animate');
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add(animationClass);
+            } else {
+                entry.target.classList.remove(animationClass);
+            }
         });
     }, {
         threshold: 0.2

@@ -2,19 +2,20 @@
     <div class="flex flex-col gap-10 max-w-screen-2xl mx-auto justify-center items-center pt-10 pb-30 lg:pb-40 px-4 md:px-16">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
-                class="bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]">QUEM
+                class="reveal-left bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]"
+                style="animation-delay:0.1s">QUEM
                 SOMOS</span>
-            <h2 class="text-black text-3xl md:text-5xl font-bold">
+            <h2 class="reveal-left text-black text-3xl md:text-5xl font-bold" style="animation-delay:0.3s">
                 Sobre a <strong class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent"> Origem
                     3D </strong>
             </h2>
-            <p class="text-brand-gray_2 md:leading-8 md:text-[24px] mt-2 md:mt-5">
+            <p class="reveal-left text-brand-gray_2 md:leading-8 md:text-[24px] mt-2 md:mt-5" style="animation-delay:0.5s">
                 Somos uma empresa especializada em impressão 3D, focada em criar produtos personalizados de alta qualidade
                 para pessoas e empresas que buscam inovação.
             </p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-            <div class="relative">
+            <div class="reveal-grow  relative hover:scale-95 duration-300" style="animation-delay:0.1s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -32,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.3s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -50,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.5s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
