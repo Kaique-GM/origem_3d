@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +8,114 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    /* --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji'; */
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+    /* cores */
+    --color-primary-border: #D1D5DB;
+    --color-primary: #3FA9F5;
+    --color-secondary: #1565C0;
+    --color-brand-blue: #0D47A1;
+    --color-brand-blue_2: #0B3C78;
+    --color-brand-blue_3: #0A1F44;
+    --color-brand-blue_4: #174EA6;
+    --color-brand-blue_5: #0F2A5F;
+    --color-brand-dark_1: #1A1A1A;
+    --color-brand-dark_2: #242424;
+    --color-brand-gray_1: #BAB5B5;
+    --color-brand-gray_2: #6B7280;
+    --color-brand-gray_3: #2F2F2F;
+    --color-brand-gray_4: #2E2E2E;
+    --color-brand-gray_5: #3A3A3A;
+}
+
+@keyframes growIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    70% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.reveal-down {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.reveal-grow {
+    opacity: 0;
+    transform: scale(0.6);
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes grow {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-grow {
+    animation: grow 0.8s ease-out forwards;
+}
+
+.animate-down {
+    animation: slideInDown 1s ease-out forwards;
+}
+
+.animate-left {
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+/* Img Principal */
+.animate-grow-in {
+    animation: growIn 1s ease-in-out forwards;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 14px !important;
+    height: 14px !important;
+    background: rgba(209, 213, 219, 0.8) !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 16px !important;
+    height: 16px !important;
+    background: linear-gradient(90deg, #3FA9F5, #1565C0) !important;
 }
