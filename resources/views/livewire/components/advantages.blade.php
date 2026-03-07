@@ -11,7 +11,7 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-            <div class="reveal-grow relative" style="animation-delay:0.1s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.1s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="reveal-grow relative" style="animation-delay:0.3s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.3s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="reveal-grow relative" style="animation-delay:0.5s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.5s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="reveal-grow relative" style="animation-delay:0.7s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.7s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="reveal-grow relative" style="animation-delay:0.9s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.9s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="reveal-grow relative" style="animation-delay:0.9s">
+            <div class="reveal-grow relative hover:scale-95 duration-300" style="animation-delay:0.9s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
