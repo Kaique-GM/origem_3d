@@ -1,7 +1,7 @@
 <section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-4 md:px-16 py-14 relative" id="produtos">
-    <img src="{{ asset('images/products/ChaveiroMario.webp') }}" alt="Chaveiro Mario"
-                            class="reveal-grow max-w-32 md:max-w-44 xl:max-w-76 absolute -top-28 left-0" draggable="false">
-                            
+    <img src="{{ asset('images/products/chaveiromario_1.webp') }}" loading="lazy" decoding="async" alt="Chaveiro do Mario"
+        class="reveal-grow max-w-32 md:max-w-44 xl:max-w-76 absolute -top-28 left-0" draggable="false">
+
     <div class="flex flex-col justify-center items-center max-w-3xl text-center">
         <h4 class="reveal-left text-white text-3xl md:text-5xl font-bold" style="animation-delay:0.1s">
             Nossos Produtos
@@ -14,11 +14,14 @@
         <div class="flex flex-col justify-center items-center md:items-start gap-5">
             <span id="product-category"
                 class="reveal-left text-white xl:text-[26px] font-bold py-2 px-14 md:px-24 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50" style="animation-delay:0.1s">
+                DECORATIVOS
             </span>
             <div class="flex flex-col justify-center items-start gap-5 px-4">
                 <h5 id="product-title" class="reveal-left text-white text-xl md:text-[42px] font-bold" style="animation-delay:0.3s">
+                    Vasos e Jarros
                 </h5>
                 <p id="product-description" class="reveal-left text-white md:leading-9 md:text-[24px]" style="animation-delay:0.5s">
+                    Peças modernas e minimalistas ideais para transformar qualquer ambiente. Criamos vasos e jarros com diferentes formatos, texturas e acabamentos, combinando design contemporâneo, resistência e personalidade para valorizar sua decoração.
                 </p>
             </div>
             <div class="reveal-left flex justify-center items-center w-full mt-5" style="animation-delay:0.7s">
@@ -33,22 +36,22 @@
             <div class="swiper overflow-hidden rounded-[30px] w-full max-w-150">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide aspect-square">
-                        <img src="{{ asset('images/products/Decorativos_1.webp') }}" alt="Decorativos"
+                        <img src="{{ asset('images/products/decorativos.webp') }}" loading="lazy" decoding="async" alt="Decorativos impressos em 3D personalizados"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
 
                     <div class="swiper-slide aspect-square">
-                        <img src="{{ asset('images/products/Chaveiros.webp') }}" alt="Chaveiros"
+                        <img src="{{ asset('images/products/chaveiros_1.webp') }}" loading="lazy" decoding="async" alt="Chaveiros impressos em 3D personalizados"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
 
                     <div class="swiper-slide aspect-square">
-                        <img src="{{ asset('images/products/Bonecos.webp') }}" alt="Bonecos"
+                        <img src="{{ asset('images/products/bonecos_1.webp') }}" loading="lazy" decoding="async" alt="Bonecos impressos em 3D personalizados"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
 
                     <div class="swiper-slide aspect-square">
-                        <img src="{{ asset('images/products/Suporte.webp') }}" alt="Suportes"
+                        <img src="{{ asset('images/products/suporte_1.webp') }}" loading="lazy" decoding="async" alt="Suportes impressos em 3D personalizados"
                             class="object-cover w-full h-full rounded-[30px]" draggable="false">
                     </div>
                 </div>
