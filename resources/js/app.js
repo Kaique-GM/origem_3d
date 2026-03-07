@@ -28,9 +28,27 @@ window.maskPhone = function (input) {
     input.value = value;
 }
 
-
 // Swiper
 document.addEventListener("DOMContentLoaded", () => {
+
+    //Animação  slide-left
+    const elements = document.querySelectorAll('.reveal-left');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-slide-left');
+            } else {
+                entry.target.classList.remove('animate-slide-left');
+            }
+
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    elements.forEach(el => observer.observe(el));
 
     const products = [
         {
