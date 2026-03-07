@@ -1,193 +1,60 @@
-# 🚀 Laravel Base Project (Livewire + Tailwind)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./public/images/Logo_Branca.webp">
+    <source media="(prefers-color-scheme: light)" srcset="./public/images/Logo.webp">
+    <img src="./public/images/Logo_Branca.webp" width="200">
+  </picture>
+</p>
 
-Este repositório é um **projeto base (template)** criado para servir como ponto de partida para novos projetos.
+# 🧩 Origem 3D — Landing Page
 
-Ele já vem configurado com:
+Landing page desenvolvida para **Origem 3D**, um negócio focado na criação e venda de **produtos feitos com impressão 3D**, como peças decorativas, chaveiros, miniaturas e itens personalizados.
 
-- Laravel
-- Livewire
-- TailwindCSS
-- Layout global (Navbar + Footer)
-- Estrutura inicial pronta para desenvolvimento
+O objetivo do projeto é apresentar os produtos de forma moderna, clara e responsiva, facilitando o contato com clientes interessados em peças personalizadas.
 
-A ideia é: sempre que precisar iniciar um novo projeto, basta **clonar este repositório** e começar a desenvolver.
+## 🌐 Acesse o projeto
 
-## ✅ Requisitos
+A aplicação pode ser acessada em:
 
-Antes de rodar o projeto, você precisa ter um ambiente de desenvolvimento configurado.
+🔗 **https://seu-site-aqui.com**
 
-### 🖥️ Ambiente local
+> O link será atualizado quando o projeto estiver publicado.
 
-Recomenda-se usar um pacote como XAMPP, Laragon ou Docker, que já inclui:
+## 🖼️ Preview
 
-- PHP 8.2+
-- MySQL (ou MariaDB)
-- Servidor web (Apache ou Nginx)
+![Banner da Landing Page](./public/images/printBanner.png)
 
-### 📦 Dependências obrigatórias
+> Banner principal da página com destaque para produtos criados em impressão 3D.
 
-Além do ambiente local, você precisa ter instalado:
-
-- Composer
-- Node.js
-- NPM
-- Git
-
-Você pode verificar se está tudo instalado com:
-
-```bash
-php -v
-composer -V
-node -v
-npm -v
-git -v
-```
-
-### 🗄️ Banco de Dados
-
-- MySQL ou MariaDB
-- Gerenciado via:
-  - phpMyAdmin (XAMPP/Laragon)
-  - MySQL Workbench
-  - Outro gerenciador de sua preferência
-
-## 📥 Instalação do Projeto
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/Kaique-GM/laravel-base-project.git
-```
-
-Entre na pasta do projeto:
-
-```bash
-cd nome-do-projeto
-```
-
-Instale as dependências do PHP:
-
-```bash
-composer install
-```
-
-Instale as dependências do Node:
-
-```bash
-npm install
-```
-
-## ⚙️ Configuração do arquivo ```.env```
-
-Crie o arquivo ```.env``` baseado no ```.env.example```:
-
-```bash
-cp .env.example .env
-```
-
-Agora gere a chave da aplicação:
-
-```bash
-php artisan key:generate
-```
-
-## 🗄️ Configurar Banco de Dados
-
-No arquivo ```.env```, configure as credenciais do banco:
-
-```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=nome_do_banco
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Depois rode as migrations:
-
-```bash
-php artisan migrate
-```
-
-## 📂 Storage (Upload de arquivos)
-
-Caso o projeto utilize uploads, crie o link simbólico do storage:
-
-```bash
-php artisan storage:link
-```
-
-## ▶️ Rodando o projeto
-
-Rodar servidor Laravel:
-
-```bash
-php artisan serve
-```
-
-Rodar o Vite:
-
-```bash
-npm run dev
-```
-
-Agora acesse:
-
-```bash
-http://127.0.0.1:8000
-```
-
-## 🏗️ Build para produção
-
-Para gerar os arquivos finais do frontend:
-
-```bash
-npm run build
-```
-
-## 📌 Estrutura base
-
-O projeto já vem com:
-
-- Layout global em: ```resources/views/layouts/app.blade.php```
-
-- Componentes Livewire globais:
-
-  - Navbar: ```app/Livewire/Components/Navbar.php```
-
-  - Footer: ```app/Livewire/Components/Footer.php```
-
-- Página inicial:
-  - Home: ```app/Livewire/Home.php```
-  
-## 💡 Como usar este projeto como template
-
-Para criar um novo projeto usando este como base:
-
- 1. Clone o repositório
- 2. Renomeie o projeto/pasta se quiser
- 3. Apague o histórico git antigo:
-
-```bash
-rm -rf .git
-```
-
- 1. Crie um novo repositório e inicie o git:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
 
 ## 📌 Tecnologias usadas
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white)
 ![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=for-the-badge&logo=swiper&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+
+## ✨ Funcionalidades
+
+A landing page possui:
+
+* 🎨 Layout moderno e responsivo
+* 📱 Compatível com desktop e mobile
+* 🎞️ Animações ao aparecer na tela (scroll reveal)
+* 🧩 Slider de categorias de produtos
+* 📦 Destaque para diferentes tipos de itens impressos em 3D
+* 📲 Botão de contato direto com WhatsApp
+* 📷 Banner visual com produtos em destaque
 
 ## 📄 Licença
 
-Este projeto é livre para uso como base em projetos pessoais e profissionais.
+Este projeto foi desenvolvido para **estudo e portfólio**.
+
+A aplicação também está sendo utilizada pela loja **Origem 3D**, servindo como vitrine para os produtos do negócio.
+
+O código pode ser utilizado como **referência de aprendizado**, mas não deve ser reutilizado ou redistribuído para fins comerciais sem autorização.
