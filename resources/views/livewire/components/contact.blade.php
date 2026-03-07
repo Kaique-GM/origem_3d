@@ -12,7 +12,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div class="flex justify-center items-end">
-                <div class="relative flex justify-center items-center">
+                <div class="relative flex justify-center items-center" id="form">
                     <div
                         class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                     </div>

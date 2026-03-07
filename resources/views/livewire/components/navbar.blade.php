@@ -20,7 +20,7 @@
                     <a href="#produtos" class="hover:text-secondary">Produtos</a>
                     <a href="#diferenciais" class="hover:text-secondary">Diferenciais</a>
                     <a href="#contato" class="hover:text-secondary">Contato</a>
-                    <a href="#contato"
+                    <a href="#form"
                         class="bg-linear-to-r from-primary to-secondary text-white text-center rounded-full py-2 font-bold">
                         Faça seu Orçamento
                     </a>
@@ -34,7 +34,7 @@
                     <a href="#diferenciais" class="hover:text-secondary transition">Diferenciais</a>
                     <a href="#contato" class="hover:text-secondary transition">Contato</a>
                     {{-- Button --}}
-                    <a href="#contato"
+                    <a href="#form"
                         class="flex justify-center items-center text-center bg-linear-to-r from-primary to-secondary rounded-[30px] font-bold xl:text-2xl text-white hover:scale-105 duration-300 transition px-8 py-2">
                         <span>Faça seu Orçamento</span>
                     </a>
