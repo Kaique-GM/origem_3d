@@ -1,5 +1,5 @@
 <section class="font-sans bg-linear-to-b from-white via-white via-88% to-brand-blue_4" id="sobre">
-    <div class="flex flex-col gap-10 max-w-screen-2xl mx-auto justify-center items-center pt-10 pb-30 px-4 md:px-16">
+    <div class="flex flex-col gap-10 max-w-screen-2xl mx-auto justify-center items-center pt-10 pb-30 lg:pb-40 px-4 md:px-16">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
                 class="bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]">QUEM

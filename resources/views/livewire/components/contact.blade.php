@@ -1,5 +1,7 @@
-<section class="font-sans bg-linear-to-b from-brand-dark_2 via-brand-dark_2 via-90% to-brand-dark_1" id="contato">
-    <div class="flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-4 md:px-16 gap-10">
+<section class="relative font-sans bg-linear-to-b from-brand-dark_2 via-brand-dark_2 via-90% to-brand-dark_1" id="contato">
+    <div class="relative flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-4 md:px-16 gap-10">
+        <img src="{{ asset('images/goku.webp') }}" alt="Goku"
+            class="max-w-40 md:max-w-44 xl:max-w-86 absolute -top-32 md:-top-48 right-0 z-10" draggable="false">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
                 class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent font-bold md:text-[24px]">ORÇAMENTO</span>
