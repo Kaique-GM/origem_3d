@@ -1,4 +1,4 @@
-<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-2 md:px-16 py-14 relative" id="produtos">
+<section class="flex flex-col max-w-screen-2xl mx-auto justify-center items-center font-sans px-4 md:px-16 py-14 relative" id="produtos">
     <img src="{{ asset('images/products/ChaveiroMario.webp') }}" alt="Chaveiro Mario"
                             class="max-w-32 md:max-w-44 xl:max-w-76 absolute -top-28 left-0" draggable="false">
                             
@@ -11,9 +11,9 @@
         </p>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center mt-8 md:mt-14 gap-10">
-        <div class="flex flex-col justify-center items-start gap-5">
+        <div class="flex flex-col justify-center items-center md:items-start gap-5">
             <span id="product-category"
-                class="text-white xl:text-[26px] font-bold py-2 px-24 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50">
+                class="text-white xl:text-[26px] font-bold py-2 px-14 md:px-24 rounded-[30px] bg-linear-to-r from-primary/50 to-secondary/50">
             </span>
             <div class="flex flex-col justify-center items-start gap-5 px-4">
                 <h5 id="product-title" class="text-white text-xl md:text-[42px] font-bold">

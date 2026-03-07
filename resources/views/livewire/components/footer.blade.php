@@ -51,14 +51,13 @@
                 </div>
             </div>
         </div>
-        <div class="w-full pt-6 text-brand-gray_1 text-lg flex gap-3 justify-center items-center border-t-2 border-[#464646]">
+        <div class="w-full pt-6 text-center text-brand-gray_1 text-lg flex flex-col lg:flex-row gap-3 justify-center items-center border-t-2 border-[#464646]">
             <span>© {{ date('Y') }} Todos os direitos reservados Origem 3D. Desenvolvido por <a
                     href="https://kaique-gm.github.io/" target="_blank"
                     class="inline-block font-bold hover:scale-95 duration-300 hover:text-white">Kaique
                     Mattos</a>.
             </span>
             <img src="{{ asset('images/pixel.gif') }}" alt="PixelArt" draggable="false" class="max-w-8">
-
         </div>
     </div>
 </footer>

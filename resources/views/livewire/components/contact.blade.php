@@ -1,5 +1,5 @@
 <section class="font-sans bg-linear-to-b from-brand-dark_2 via-brand-dark_2 via-90% to-brand-dark_1" id="contato">
-    <div class="flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-2 md:px-16 gap-10">
+    <div class="flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-20 md:pt-36 pb-20 md:pb-36 px-4 md:px-16 gap-10">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
                 class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent font-bold md:text-[24px]">ORÇAMENTO</span>
@@ -152,7 +152,7 @@
                             </div>
                             <div class="flex flex-col justify-center items-start">
                                 <h6 class="text-white font-bold text-2xl md:text-3xl mb-1">E-mail</h6>
-                                <p class="text-brand-gray_1 font-medium text-base md:text-2xl">
+                                <p class="text-brand-gray_1 font-medium text-sm md:text-2xl">
                                     contato@origem3d.com.br
                                 </p>
                             </div>
