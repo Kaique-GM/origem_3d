@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./public/images/Logo_Branca.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="./public/images/logo_branca_1.webp">
     <source media="(prefers-color-scheme: light)" srcset="./public/images/Logo.webp">
-    <img src="./public/images/Logo_Branca.webp" width="200">
+    <img src="./public/images/logo_branca_1.webp" width="200">
   </picture>
 </p>
 
@@ -22,7 +22,7 @@ A aplicação pode ser acessada em:
 
 ## 🖼️ Preview
 
-![Banner da Landing Page](./public/images/printBanner.png)
+![Banner da Landing Page](./public/images/printbanner.png)
 
 > Banner principal da página com destaque para produtos criados em impressão 3D.
 
