@@ -9,13 +9,10 @@ const btn = document.getElementById('mobile-menu-btn');
 const menu = document.getElementById('mobile-menu');
 
 btn.addEventListener('click', () => {
-    if (menu.classList.contains('max-h-0')) {
-        menu.classList.remove('max-h-0', 'opacity-0');
-        menu.classList.add('max-h-[500px]', 'opacity-100');
-    } else {
-        menu.classList.add('max-h-0', 'opacity-0');
-        menu.classList.remove('max-h-[500px]', 'opacity-100');
-    }
+    menu.classList.toggle('max-h-0');
+    menu.classList.toggle('opacity-0');
+    menu.classList.toggle('max-h-[500px]');
+    menu.classList.toggle('opacity-100');
 });
 
 //WPP
@@ -78,6 +75,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     ];
 
+    const categoryEl = document.getElementById("product-category");
+    const titleEl = document.getElementById("product-title");
+    const descEl = document.getElementById("product-description");
+
     const swiper = new Swiper('.swiper', {
         modules: [Autoplay, Pagination],
 
@@ -92,14 +93,13 @@ document.addEventListener("DOMContentLoaded", () => {
             el: '.swiper-pagination',
             clickable: true
         },
+
         on: {
             slideChange(swiper) {
-                const index = swiper.realIndex;
-
-                document.getElementById("product-category").textContent = products[index].category;
-                document.getElementById("product-title").textContent = products[index].title;
-                document.getElementById("product-description").textContent = products[index].description;
-
+                const { category, title, description } = products[swiper.realIndex];
+                categoryEl.textContent = category;
+                titleEl.textContent = title;
+                descEl.textContent = description;
             }
         }
     });
