@@ -3,11 +3,11 @@
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
                 class="reveal-left bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]" style="animation-delay:0.1s">DIFERENCIAIS</span>
-            <h6 class="reveal-left text-black text-3xl md:text-5xl font-bold" style="animation-delay:0.3s">
+            <h5 class="reveal-left text-black text-3xl md:text-5xl font-bold" style="animation-delay:0.3s">
                 Por que escolher a <strong
                     class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent"> Origem
                     3D </strong>
-            </h6>
+            </h5>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">

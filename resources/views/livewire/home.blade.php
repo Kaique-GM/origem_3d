@@ -1,7 +1,7 @@
-<section class="flex flex-col">
+<div class="flex flex-col">
     @php
-    $url = asset('images/banner/Banner.webp');
-    $urlProducts = asset('images/products/Banner.webp');
+    $url = asset('images/banner/bannerhome.webp');
+    $urlProducts = asset('images/products/banner_1.webp');
     @endphp
     <div class="bg-cover bg-center bg-no-repeat" style="background-image: url('{{ $url }}');">
         <div class="flex flex-col bg-linear-to-b from-white/90 via-white/90 to-white h-full pb-12">
@@ -28,4 +28,4 @@
     <div>
         <livewire:components.contact />
     </div>
-</section>
+</div>
