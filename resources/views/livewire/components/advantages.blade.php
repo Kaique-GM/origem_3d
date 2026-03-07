@@ -2,8 +2,8 @@
     <div class="flex flex-col justify-center items-center max-w-screen-2xl mx-auto pt-36 pb-36 px-4 md:px-16 gap-10">
         <div class="flex flex-col justify-center items-center max-w-4xl text-center">
             <span
-                class="bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]">DIFERENCIAIS</span>
-            <h6 class="text-black text-3xl md:text-5xl font-bold">
+                class="reveal-left bg-linear-to-b from-brand-blue_3 to-brand-blue bg-clip-text text-transparent font-bold md:text-[24px]" style="animation-delay:0.1s">DIFERENCIAIS</span>
+            <h6 class="reveal-left text-black text-3xl md:text-5xl font-bold" style="animation-delay:0.3s">
                 Por que escolher a <strong
                     class="bg-linear-to-b from-primary to-secondary bg-clip-text text-transparent"> Origem
                     3D </strong>
@@ -11,7 +11,7 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.1s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.3s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.5s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.7s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.9s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="relative">
+            <div class="reveal-grow relative" style="animation-delay:0.9s">
                 <div
                     class="absolute -left-1 top-0 h-full w-full bg-linear-to-b from-primary via-secondary to-brand-blue rounded-4xl">
                 </div>
