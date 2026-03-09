@@ -50,11 +50,3 @@ A landing page possui:
 * 📦 Destaque para diferentes tipos de itens impressos em 3D
 * 📲 Botão de contato direto com WhatsApp
 * 📷 Banner visual com produtos em destaque
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para **estudo e portfólio**.
-
-A aplicação também está sendo utilizada pela loja **Origem 3D**, servindo como vitrine para os produtos do negócio.
-
-O código pode ser utilizado como **referência de aprendizado**, mas não deve ser reutilizado ou redistribuído para fins comerciais sem autorização.
