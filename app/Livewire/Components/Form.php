@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Components;
 
+use App\Models\FormContact;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -31,6 +32,14 @@ class Form extends Component
     {
         $this->validate();
 
+        FormContact::create([
+            'name' => $this->name,
+            'email' => $this->email,
+            'phone' => $this->phone,
+            'project_description' => $this->projectDescription,
+        ]);
+
+        /* Form por email
         $data = [
             'name' => $this->name,
             'email' => $this->email,
@@ -42,12 +51,13 @@ class Form extends Component
             $message->to('kaiquegmoficial@gmail.com')
                 ->subject('Novo orçamento - Origem3D');
         });
+        */
 
-        $this->reset(['name','email','phone','projectDescription']);
-        
+        $this->reset(['name', 'email', 'phone', 'projectDescription']);
+
         session()->flash('success', 'Mensagem enviada com sucesso!');
     }
-    
+
     public function render()
     {
         return view('livewire.components.form');
