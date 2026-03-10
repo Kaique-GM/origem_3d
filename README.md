@@ -18,7 +18,6 @@ A aplicação pode ser acessada em:
 
 🔗 **https://origem3d.rf.gd/**
 
-> O link será atualizado quando o projeto estiver publicado.
 
 ## 🖼️ Preview
 
